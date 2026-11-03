@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "horrormod",
+  "version": "${version}",
+  "name": "Horror Mod",
+  "description": "Stalker mob that freezes when watched + random ambient scares (footsteps, whispers, doors, darkness).",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.horrormod.HorrorMod"],
+    "client": ["com.horrormod.client.HorrorModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
